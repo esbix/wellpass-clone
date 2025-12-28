@@ -1,19 +1,17 @@
 import { Image } from "expo-image";
-import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { View } from "react-native";
+import { Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-export default function indext() {
+export default function sessions() {
   return (
     <SafeAreaView className="flex-1 bg-white">
-      <StatusBar style="dark" />
       <View className="flex-1 bg-white relative">
         <Image
-          source={require("../../assets/images/bg_home.png")}
+          source={require("../../assets/images/sessions.jpeg")}
           className="absolute inset-0 object-cover"
           contentFit="cover"
-          style={{ height: "75%" }}
+          style={{ height: "50%" }}
         />
       </View>
     </SafeAreaView>
